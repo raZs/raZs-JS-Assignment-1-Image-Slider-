@@ -16,7 +16,7 @@ carouselSlide.style.transform ='translatex(' +(-size * counter) + 'px)';
 
 prevBtn.addEventListener('click' ,()=>{
    // if (counter<=0) return;
-    carouselSlide.style.transition = "transform 0.s ease-in-out";
+    carouselSlide.style.transition = "transform 0.4s ease-in-out";
     counter--
     carouselSlide.style.transform ='translatex(' +(-size * counter) + 'px)';
 
@@ -24,9 +24,9 @@ prevBtn.addEventListener('click' ,()=>{
 
 nextBtn.addEventListener('click' ,()=>{
    // if(counter>= carouselImages -1) return;
-    carouselSlide.style.transition = "transform 0.1s ease-in-out";
-    counter ++
-    carouselSlide.style.transform ='translatex ( ' +(-size * counter) + 'px ) ';
+    carouselSlide.style.transition = "transform 0.4s ease-in-out";
+    counter++
+    carouselSlide.style.transform ='translatex(' +(-size * counter) + 'px)';
 
 });
 
