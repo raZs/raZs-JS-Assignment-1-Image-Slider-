@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <title>Carousel Image</title>
+    
+</head>
+<body>
+    <h1>Image Carousel</h1>
+
+    <div class="carousel-container">
+        
+         <!-- <i  class="fas fa-arrow-left" id="prevBtn"></i>
+        <i class="fas fa-arrow-right" id="nextBtn"></i>  -->
+
+        <div class="carousel-slide">
+            <img src="images/e.jpg" id="lastClone" alt="slide ">
+            <img src="images/a.jpg" alt="slide ">
+            <img src="images/b.jpg" alt="slide ">
+            <img src="images/c.jpg" alt="slide ">
+            <img src="images/d.jpg" alt="slide ">
+            <img src="images/e.jpg" alt="slide ">
+            <img src="images/a.jpg" id="firstClone" alt="slide ">
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+
+        <span id="prevBtn"><</span>
+        <span id="nextBtn">></span>
+
+    </div>
+  
+
+
+
+
+    <script src="js/carosel.js"></script>
+</body>
+</html>

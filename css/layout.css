@@ -1,0 +1,79 @@
+.carousel {
+	height: 360px;
+	width: 50%;
+	display: inline-block;
+	margin-right: -4px;
+	margin-bottom: -4px;
+}
+
+.carousel-list{
+	position: relative;
+}
+
+.carousel-list img{
+	float: left;
+	width: 640px;
+	position: absolute;
+	top:0;
+}
+
+.arrow-left{
+	position: absolute;
+	top:0;
+	left: 0;
+	bottom: 0;	
+	width: 40px;
+	height: 100%;
+	background: url(../images/arrow-left.png) center center no-repeat;
+	background-size: contain;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.arrow-left:hover{
+	background-image: url(../images/arrow-left-hover.png);
+	opacity: 0.9;
+}
+
+.arrow-right{
+	position: absolute;
+	top:0;
+	right:0;
+	bottom: 0;
+	width: 40px;
+	height: 100%;
+	background: url(../images/arrow-right.png) center center no-repeat;
+	background-size: contain;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.arrow-right:hover{
+	background-image: url(../images/arrow-right-hover.png);
+	opacity: 0.9;
+}
+
+.dotElement{
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.dotElement span{
+	line-height: 20px;
+	padding: 0 10px;
+	background: url(../images/dot-icon.png) center center no-repeat;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.dotElement span:hover{
+	background: url(../images/dot-icon-hover.png) center center no-repeat;
+	opacity: 1;
+}
+
+.dotElement span.active{
+	background: url(../images/dot-icon-hover.png) center center no-repeat;
+	opacity: 0.9;
+}
